@@ -19,7 +19,5 @@ public class Aula05EstruturasCondicionais02 {
         }
 
         System.out.println(categoria);
-        System.out.println(categoria);
-
     }
 }
