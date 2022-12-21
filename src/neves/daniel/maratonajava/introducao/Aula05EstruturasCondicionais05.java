@@ -35,9 +35,20 @@ public class Aula05EstruturasCondicionais05 {
 
         }
 
-        char sexo = 'm';
+        char sexo = 'M';
 
-        
+        switch (sexo){
+            case 'M':
+                System.out.println("\nHomem");
+                break;
+            case 'F':
+                System.out.println("Mulher");
+                break;
+            default:
+                System.out.println("opção inválida!!!");
+                break;
+
+        }
     }
 
 }
