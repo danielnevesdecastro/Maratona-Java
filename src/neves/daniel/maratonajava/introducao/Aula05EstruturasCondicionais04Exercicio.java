@@ -1,6 +1,6 @@
 package neves.daniel.maratonajava.introducao;
-//aula 23, exercicio
-public class Aula06EstruturasCondicionaisExercicio {
+//aula 23,24 exercicio
+public class Aula05EstruturasCondicionais04Exercicio {
 
     public static void main (String[] args){
 
