@@ -12,7 +12,7 @@ public class Aula07Arrays03 {
         }
         //nova forma de imprimir, for each
         for(int n : numeros){ // sem índice
-            System.out.println(" Nº "+n);
+            System.out.println("\n Nº "+n);
         }
 
     }
