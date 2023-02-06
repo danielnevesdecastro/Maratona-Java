@@ -18,7 +18,7 @@ public class Aula07Arrays05 {
                 System.out.print(num+ " ");
             }
         }
-        //Declarando array com valores, onde automaticamente o array principal e demais são dimensionados 
+        //Declarando array com valores, onde automaticamente o array principal e demais são dimensionados
         int[][] arrayInt2 = {{0, 0},{1, 2, 3,}, {1, 2, 3, 4, 5, 6,}};
         for(int[] arrayBase:arrayInt2){
             System.out.println("\n----------");
