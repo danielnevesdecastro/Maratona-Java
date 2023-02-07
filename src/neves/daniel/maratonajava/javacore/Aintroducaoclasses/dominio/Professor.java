@@ -1,10 +1,8 @@
 package neves.daniel.maratonajava.javacore.Aintroducaoclasses.dominio;
 
-//Aula 39 - OO,Classes
-public class Estudante {
+public class Professor {
     //atributos
     public String nome ;
     public int idade;
     public char sexo;
-
 }
