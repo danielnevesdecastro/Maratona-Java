@@ -1,13 +1,16 @@
 package neves.daniel.maratonajava.javacore.Bintroducaometodos.test;
 
 import neves.daniel.maratonajava.javacore.Bintroducaometodos.dominio.Calculadora;
-//Aula47 - OO, retorno
-public class CalculadoraTest03 {
+
+//aula 48 - oo, parametros tipo primitivo
+public class CalculadoraTest04 {
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        double divisao =calc.divideDoisNumeros(20, 2); // atribuindo metodo a variavel para imprimir
-        System.out.println(divisao);
-        calc.imprimeDivisão(20,0);//retorno com void
+        int n1 = 1;
+        int n2 = 2;
+        calc.alteraNumeros(n1, n2);
+        System.out.println(n1);
+        System.out.println(n2);
 
     }
 }
