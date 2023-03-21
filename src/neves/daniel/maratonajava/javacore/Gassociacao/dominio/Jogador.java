@@ -1,6 +1,6 @@
 package neves.daniel.maratonajava.javacore.Gassociacao.dominio;
 
-//64 - Associação, Unidirecional 1 pra N
+//64 - Associação, Unidirecional 1 para N, bidirecional
 public class Jogador {
     private String nome;
     private Time time;
