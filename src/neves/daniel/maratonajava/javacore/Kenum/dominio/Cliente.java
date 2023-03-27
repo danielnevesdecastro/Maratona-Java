@@ -2,10 +2,10 @@ package neves.daniel.maratonajava.javacore.Kenum.dominio;
 
 //80 - enum
 public class Cliente {
-    //enum dentro da classe
+    /*enum dentro da classe
     public enum TipoPagamento {
         DEBITO,CREDITO
-    }
+    }*/
 
     private String nome;
     private TipoCliente tipoCliente;
