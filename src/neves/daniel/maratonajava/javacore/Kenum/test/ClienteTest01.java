@@ -4,7 +4,7 @@ import neves.daniel.maratonajava.javacore.Kenum.dominio.Cliente;
 import neves.daniel.maratonajava.javacore.Kenum.dominio.TipoCliente;
 import neves.daniel.maratonajava.javacore.Kenum.dominio.TipoPagamento;
 
-//80,81 - enum
+//80 A 83 - enum
 public class ClienteTest01 {
 
     public static void main(String[] args) {
@@ -21,6 +21,8 @@ public class ClienteTest01 {
         }
         System.out.println(TipoPagamento.DEBITO.calculoDesconto(100));
         System.out.println(TipoPagamento.CREDITO.calculoDesconto(100));
+        TipoCliente tipoCliente = TipoCliente.tipoClientePorRelatorio("Pessoa Física");
+        System.out.println(tipoCliente);
 
     }
 }

@@ -22,7 +22,7 @@ public class Cliente {
         return "Cliente{" +
                 "Nome= '" + nome + '\'' +
                 ", TipoCliente= " + tipoCliente +
-                tipoCliente.getNome() +
+                tipoCliente.getRelatorio() +
                 ", Pagamento= " + pagamento +
                 '}'+"\n";
     }
