@@ -18,5 +18,8 @@ public class DataLoaderTest01 {
         data1.checkPermission();
         file1.checkPermission();
 
+        DataLoader.retrieveMaxDataSize();// metodo static
+        DatabaseLoader.retrieveMaxDataSize();// metodo static ñ sobrescrito
+
     }
 }
