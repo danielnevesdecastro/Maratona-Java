@@ -1,5 +1,5 @@
 package neves.daniel.maratonajava.javacore.Oexception.error;
-//Exceptions - Errors
+// 95 Exceptions - Errors
 public class StackOverFlowTest01 {
 
     double total;

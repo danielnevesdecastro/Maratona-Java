@@ -1,5 +1,5 @@
 package neves.daniel.maratonajava.javacore.Oexception.test;
-
+//96 - Exception, unchecked
 public class RuntimeExceptionTest01 {
     public static void main(String[] args) {
         //Checked Unchecked
