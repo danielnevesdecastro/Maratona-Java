@@ -1,4 +1,4 @@
-package neves.daniel.maratonajava.javacore.Oexception.test;
+package neves.daniel.maratonajava.javacore.Oexception.runtime;
 //96 - Exception, unchecked
 public class RuntimeExceptionTest01 {
     public static void main(String[] args) {
